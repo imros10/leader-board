@@ -28,7 +28,6 @@ hr{
 }
 /* Header style here  */
 header{
-    width: 100%;
     background-color: #562EFF;
 }
 .top-container{
@@ -231,10 +230,23 @@ Media Querias
     }
     .courses{
         grid-template-columns: repeat(1, 250px);
-        /* justify-content: center; */
+        justify-content: center;
         align-items: center;
     }
     .course{
        margin-bottom: 20px;
+    }
+    .top-container{
+        flex-direction: column;
+    }
+    .top-menu{
+        width: 100%;
+        flex-direction: column;
+        padding-top: 30px;
+
+    }
+    .logo{
+        justify-content: center;
+    
     }
 }
